@@ -22,7 +22,7 @@ script:
 
 This will run the Experiment.json in the local repo
 
-Run with chaosiq
+## Run with chaosiq
 
 Getting a settings.yml with the required settings.
 

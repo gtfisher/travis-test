@@ -4,7 +4,5 @@ python:
 install:
 - pip install -r requirements.txt
 script:
-- chaos --settings settings.yaml run experiment.json
-before_install:
-- openssl aes-256-cbc -K $encrypted_fdb844fae20b_key -iv $encrypted_fdb844fae20b_iv
-  -in settings.yaml.enc -out settings.yaml -d
+ - chaos run experiment.json
+
